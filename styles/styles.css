@@ -1,0 +1,20 @@
+body {
+  background: #9b5a56;
+}
+
+h1 {
+  font-family: "WindSong", cursive;
+  font-size: 80px;
+  color: white;
+}
+
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: regular;
+  font-size: 25px;
+  color: white;
+}
+
+p {
+  font-family: "Fauna One", serif;
+}
