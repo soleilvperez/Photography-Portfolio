@@ -1,20 +1,41 @@
+:root {
+  --primary-branding-color: #9b5a56;
+  --secondary-branding-color: #ffffff;
+  --branding-font: "WindSong", cursive;
+  --heading-font-family: "Cinzel Decorative", cursive;
+  --default-font-family: "Fauna One", serif;
+}
+
 body {
-  background: #9b5a56;
+  background: var(--primary-branding-color);
+  font-family: var(--default-font-family);
 }
 
 h1 {
-  font-family: "WindSong", cursive;
+  font-family: var(--branding-font);
   font-size: 80px;
-  color: white;
+  color: var(--secondary-branding-color);
 }
 
 h2 {
-  font-family: "Cinzel Decorative", cursive;
+  font-family: var(--heading-font-family);
   font-weight: regular;
   font-size: 25px;
-  color: white;
+  color: var(--secondary-branding-color);
 }
 
 p {
-  font-family: "Fauna One", serif;
+  font-size: 16px;
+}
+
+.hero {
+  text-align: center;
+  padding: 160px 2px;
+}
+
+.btn-branding {
+  background: var(--secondary-branding-color);
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 10px 25px;
 }
