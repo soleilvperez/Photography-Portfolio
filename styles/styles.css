@@ -39,6 +39,32 @@ p {
   padding: 10px 25px;
 }
 
+.seconday-heading {
+  font-family: var(--heading-font-family);
+  font-size: 25px;
+  text-decoration-line: underline;
+}
+
 img {
   max-width: 30%;
+}
+
+.category-section {
+  padding: 20px;
+  border-radius: 10px;
+  border: #f4c88c;
+  background: #864048;
+}
+
+.browsing-links {
+  font-size: 20px;
+}
+
+.browsing-links:hover {
+  color: #f4c88c;
+  font-size: 22px;
+}
+
+.fa-camera-retro {
+  font-size: 300px;
 }
