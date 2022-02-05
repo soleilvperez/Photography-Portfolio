@@ -41,6 +41,7 @@ p {
 
 .seconday-heading {
   font-family: var(--heading-font-family);
+  color: var(--secondary-branding-color);
   font-size: 25px;
   text-decoration-line: underline;
 }
@@ -67,4 +68,24 @@ img {
 
 .fa-camera-retro {
   font-size: 200px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .seconday-heading {
+    opacity: 50%;
+  }
+
+  .link-section {
+    font-style: italic;
+    text-align: center;
+  }
+
+  .category-section {
+    padding: 0px;
+  }
 }
