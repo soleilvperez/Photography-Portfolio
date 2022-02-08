@@ -90,10 +90,31 @@ img {
   }
 }
 
-.about-section h1 {
-  font-size: 30px;
+.about-photo {
+  border-radius: 700px;
+}
+
+.about-section h1,
+.about-section h3 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  color: var(--secondary-branding-color);
 }
 
 .about-section h2 {
-  font-size: 35px;
+  color: black;
+  font-family: var(--branding-font);
+  font-size: 30px;
+}
+
+.camera-section h3 {
+  padding: 0;
+}
+.camera-section p {
+  border-radius: 30px;
+  background: #864048;
+  padding: 16px;
+}
+.camera-icon {
+  max-width: 70px;
 }
