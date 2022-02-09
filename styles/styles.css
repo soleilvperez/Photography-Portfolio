@@ -90,6 +90,10 @@ img {
   }
 }
 
+.about-section {
+  margin-top: 50px;
+}
+
 .about-photo {
   border-radius: 700px;
 }
@@ -98,13 +102,18 @@ img {
 .about-section h3 {
   font-family: var(--default-font-family);
   font-size: 18px;
-  color: var(--secondary-branding-color);
+  color: black;
+  text-transform: uppercase;
 }
 
 .about-section h2 {
   color: black;
   font-family: var(--branding-font);
-  font-size: 30px;
+  font-size: 40px;
+}
+
+.about-paragraph p {
+  color: black;
 }
 
 .camera-section h3 {
@@ -117,4 +126,24 @@ img {
 }
 .camera-icon {
   max-width: 70px;
+}
+
+@media (max-width: 900px) {
+  .about-photo {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+
+  .about-paragraph h1 {
+    padding-top: 20px;
+  }
+
+  .camera-section {
+    padding-top: 15px;
+  }
 }
