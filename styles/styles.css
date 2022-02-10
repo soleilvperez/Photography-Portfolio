@@ -103,18 +103,15 @@ img {
   border-radius: 700px;
 }
 
-.about-section h1,
+.about-section h2 {
+  font-size: 30px;
+}
+
 .about-section h3 {
   font-family: var(--default-font-family);
   font-size: 18px;
   color: black;
   text-transform: uppercase;
-}
-
-.about-section h2 {
-  color: black;
-  font-family: var(--branding-font);
-  font-size: 40px;
 }
 
 .about-paragraph p {
@@ -136,7 +133,7 @@ img {
 @media (max-width: 900px) {
   .about-section {
     text-align: center;
-    padding: 0px 85px;
+    padding: 0px 55px;
   }
 
   .about-paragraph h1 {
@@ -144,11 +141,12 @@ img {
   }
 
   .about-paragraph h2 {
-    font-size: 35px;
+    font-size: 20px;
+    text-align: center;
   }
 
   .about-paragraph p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .camera-section {
