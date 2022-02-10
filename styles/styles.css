@@ -30,7 +30,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 160px 2px;
+  padding: 160px 20px 160px 20px;
 }
 
 .btn-branding {
@@ -73,6 +73,10 @@ img {
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
+    text-align: center;
+  }
+
+  .portfolio-heading {
     text-align: center;
   }
 
@@ -150,4 +154,8 @@ img {
   .camera-section {
     padding-top: 15px;
   }
+}
+
+.gallery-hero {
+  padding: 100px 2px 0px 2px;
 }
