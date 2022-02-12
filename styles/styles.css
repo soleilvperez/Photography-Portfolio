@@ -20,8 +20,7 @@ body {
   display: inline;
   list-style: none;
   line-height: 40px;
-  margin: 10px;
-  margin-bottom: 0;
+  margin-left: 13px;
 }
 
 .nav ul {
@@ -32,6 +31,13 @@ body {
 .nav a {
   text-decoration: none;
   color: var(--secondary-branding-color);
+}
+
+.nav a:hover,
+.nav li.active a {
+  color: #f4c88c;
+  font-size: 17px;
+  transition: all 100ms ease-in-out;
 }
 
 .logo {
@@ -101,6 +107,15 @@ img {
 }
 
 @media (max-width: 900px) {
+  .nav ul {
+    display: block;
+    margin: auto;
+  }
+
+  .nav ul li a {
+    margin: 10px 0px;
+  }
+
   h1 {
     font-size: 48px;
     text-align: center;
