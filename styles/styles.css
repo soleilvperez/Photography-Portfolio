@@ -34,10 +34,15 @@ body {
 }
 
 .nav a:hover,
-.nav li.active a {
+.nav li.active a,
+.content-link {
   color: #f4c88c;
   font-size: 17px;
   transition: all 100ms ease-in-out;
+}
+
+.content-link:hover {
+  color: #864048;
 }
 
 .logo {
@@ -171,7 +176,9 @@ img {
   color: black;
 }
 
-.camera-section h3 {
+.camera-section h2 {
+  font-size: 18px;
+  opacity: 60%;
   padding: 0;
 }
 .camera-section p {
@@ -213,6 +220,28 @@ img {
 
 .content {
   text-align: center;
+  line-height: 25px;
+}
+
+.contact-bottom {
+  margin: 50px 350px;
+}
+
+.signature {
+  color: var(--secondary-branding-color);
+  font-family: var(--branding-font);
+  font-size: 40px;
+}
+
+@media (max-width: 900px) {
+  .content {
+    font-size: 14px;
+    margin: 10px 35px 40px 35px;
+  }
+
+  .contact-bottom {
+    margin: 0;
+  }
 }
 
 footer {
