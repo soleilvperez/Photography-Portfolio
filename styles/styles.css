@@ -83,6 +83,13 @@ p {
   text-decoration-line: underline;
 }
 
+.scroll-link {
+  color: var(--secondary-branding-color);
+  font-size: 30px;
+  opacity: 30%;
+  text-decoration: none;
+}
+
 img {
   max-width: 30%;
 }
