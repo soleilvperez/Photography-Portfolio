@@ -190,6 +190,13 @@ img {
   max-width: 70px;
 }
 
+.row-1 img,
+.row-2 img,
+.row-3 img,
+.row-4 img {
+  max-height: 325px;
+}
+
 @media (max-width: 900px) {
   .about-section {
     text-align: center;
