@@ -1,6 +1,8 @@
 :root {
   --primary-branding-color: #9b5a56;
   --secondary-branding-color: #ffffff;
+  --accent-color-light: #f4c88c;
+  --accent-color-dark: #864048;
   --branding-font: "WindSong", cursive;
   --heading-font-family: "Cinzel Decorative", cursive;
   --default-font-family: "Fauna One", serif;
@@ -36,13 +38,13 @@ body {
 .nav a:hover,
 .nav li.active a,
 .content-link {
-  color: #f4c88c;
+  color: var(--accent-color-light);
   font-size: 17px;
   transition: all 100ms ease-in-out;
 }
 
 .content-link:hover {
-  color: #864048;
+  color: var(--accent-color-dark);
 }
 
 .logo {
@@ -102,8 +104,8 @@ img {
 .category-section {
   padding: 20px;
   border-radius: 10px;
-  border: #f4c88c;
-  background: #864048;
+  border: var(--accent-color-light);
+  background: var(--accent-color-dark);
 }
 
 .browsing-links {
@@ -111,7 +113,7 @@ img {
 }
 
 .browsing-links:hover {
-  color: #f4c88c;
+  color: var(--accent-color-light);
   font-size: 22px;
 }
 
@@ -183,7 +185,7 @@ img {
 }
 .camera-section p {
   border-radius: 30px;
-  background: #864048;
+  background: var(--accent-color-dark);
   padding: 16px;
 }
 .camera-icon {
@@ -256,7 +258,7 @@ footer {
 }
 
 footer .footer-link {
-  background-color: #f4c88c;
+  background-color: var(--accent-color-light);
   border-radius: 50%;
   padding: 10px 14px;
   margin: 0 20px;
@@ -264,5 +266,5 @@ footer .footer-link {
 }
 
 footer .footer-link:hover {
-  background-color: #864048;
+  background-color: var(--accent-color-dark);
 }
