@@ -110,11 +110,13 @@ img {
 
 .browsing-links {
   font-size: 20px;
+  font-family: var(--heading-font-family);
 }
 
 .browsing-links:hover {
   color: var(--accent-color-light);
   font-size: 22px;
+  opacity: 50%;
 }
 
 .fa-camera-retro {
